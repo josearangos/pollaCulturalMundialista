@@ -8,32 +8,49 @@
   <div class="collapse navbar-collapse " id="navbarColor02">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" [routerLink]="['/resultados']">Pocisiones
-          <span class="sr-only">(current)</span>
-        </a>
+
+          <div style="font-size:1em; color:white">
+              <a class="nav-link" [routerLink]="['/resultados']"> <i class="fas fa-trophy"></i> Pocisiones</a>   
+                                       
+          </div> 
+
+    
+
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/Preguntas']">Responder Preguntas</a>
+          <div style="font-size:1em; color:white">
+              <a class="nav-link" [routerLink]="['/Preguntas']"> <i class="far fa-clock"></i>Responder Preguntas</a>                                  
+          </div> 
+
+  
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/DetallesdeMisRespuestas']">Detalles de mis respuestas</a>
+
+          <div style="font-size:1em; color:white">
+              <a class="nav-link" [routerLink]="['/DetallesdeMisRespuestas']"> <i class="fas fa-info"></i>Detalles de mis respuestas</a>                                 
+          </div> 
+
+
+        
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/respuestasAnteriores']">Respuestas Anteriores</a>
+          <div style="font-size:1em; color:white">
+              <a class="nav-link" [routerLink]="['/respuestasAnteriores']"> <i class="fas fa-question"></i> Respuestas Anteriores</a>
+                   
+          </div> 
+        
       </li>
       <li class="nav-item">
-        <a class="nav-link">{{usuario}}</a>
+          <div style="font-size:1em; color:white">
+              <a class="nav-link"><i class="fas fa-user"></i>{{usuario}}  </a>            
+          </div> 
+   
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Desconectar
-        </a>
-
-
-
-
-
-
-      </li>
+          <div style="font-size:1em; color:white">
+              <a class="nav-link" href="#" > <i class="fas fa-sign-out-alt"></i> Desconectar</a>
+          </div> 
+        </li>
 
     </ul>
 

@@ -29,10 +29,6 @@ export class ResponderPreguntasComponent implements OnInit {
   equipo6="Argentina";
   imgEquipo6="../../assets/imagenes/banderas/argentina.jpg";
 
-
-
-
-
   minutes: number;
   seconds: number;
   valor = 0;
@@ -62,7 +58,6 @@ export class ResponderPreguntasComponent implements OnInit {
     this.redireccionarOtra();
 
   }
-
 
   resetTimer(): void {
     this.minutes = 0;
