@@ -1,6 +1,5 @@
 # PollaCulturalMundialista
 
-
 ## Development server
 
 
