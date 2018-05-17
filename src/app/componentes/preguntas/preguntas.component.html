@@ -1,0 +1,103 @@
+<h1 class="display-3 text-center">
+
+
+  ¡Partidos!</h1>
+
+<div class="container">
+
+  <div class="row  justify-content-center align-items-center ">
+
+    <div class="col-8 ">
+
+      <div class="card  border-primary  text-center  animated bounceInLeft  ">
+            <div class="card-header bg-primary text-white text-center">
+              <h5 class="display-7 text-center"> Partido N°
+                <span class="badge badge-dark">11</span>
+              </h5>
+            </div>
+        <div class="card-body bg-light   ">
+          <div class="container">
+                <div class="row  justify-content-center align-items-center ">
+                      <div class="col ">
+                        <img src="{{imgEquipo1}}" class="border" width="58" height="36">
+                      </div>
+
+                      <div class="col">
+                        <h5> {{equipo1}}</h5>
+                      </div>
+
+                      <div class="col">
+                        <h5> VS </h5>
+                      </div>
+
+                      <div class="col">
+                        <img src="{{imgEquipo2}}" class="border" width="58" height="36">
+                      </div>
+
+                      <div class="col">
+                        <h5>{{equipo2}} </h5>
+                      </div>
+
+                </div>
+                <br>
+                <div class="row justify-content-center align-items-center">
+                    <button type="button" class="btn btn-success btn-lg" [swal]="anuncioSwal">¡Juega ahora!</button>
+                  </div>
+            </div>        
+          </div>
+
+        </div>
+
+        <br>
+        <!-- otra -->
+
+        <div class="card  border-primary  text-center animated bounceInRight   ">
+            <div class="card-header bg-primary text-white text-center">
+              <h5 class="display-7 text-center"> Partido N°
+                <span class="badge badge-dark">7</span>
+              </h5>
+            </div>
+        <div class="card-body bg-light   ">
+          <div class="container">
+                <div class="row  justify-content-center align-items-center ">
+                      <div class="col ">
+                        <img src="{{imgEquipo3}}" class="border" width="58" height="36">
+                      </div>
+
+                      <div class="col">
+                        <h5> {{equipo3}}</h5>
+                      </div>
+
+                      <div class="col">
+                        <h5> VS </h5>
+                      </div>
+
+                      <div class="col">
+                        <img src="{{imgEquipo4}}" class="border" width="58" height="36">
+                      </div>
+
+                      <div class="col">
+                        <h5>{{equipo4}} </h5>
+                      </div>
+
+                </div>
+                <br>
+                <div class="row justify-content-center align-items-center">
+                  <h5>Este partido estará habilitado para que lo juegues a partir del <strong>{{fecha}}</strong></h5>
+
+                </div>
+            </div>        
+          </div>
+
+        </div>
+        <!--  -->
+
+
+
+      </div>
+
+    </div>
+
+
+    <swal #anuncioSwal title="Desea Continuar?" [showCancelButton]="true" [focusCancel]="true" (confirm)="empezarPreguntas()">
+    </swal>
