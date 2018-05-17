@@ -1,5 +1,9 @@
 # PollaCulturalMundialista
 
+# Pantallazo de login 
+![Pantallazo de preguntas  ](/src/assets/imagenes/pantallazos/7.png)
+
+
 # Pantallazo pocisiones
 ![Pantallazo pocisiones ](/src/assets/imagenes/pantallazos/1.png)
 
